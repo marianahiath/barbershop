@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(0.9);
+}
+
+table {
+    margin: 20px 0 40px;
+    border: 1px solid #555555;
+}
+
+thead {
+    background: #666666;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #555555;
+    padding: 20px 12px;
+}
+
+@media screen and(max-width: 480px) {
+
+    .caixa {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+    }
+
+    main {
+        max-width: 480px;
+        margin: 0 auto;
+    }
+}
